@@ -11,8 +11,9 @@ it's available on  http://premier.agran.info</p>
 <b>username:</b> admin</br>
 <b>password:</b> admin12345</br>
 
-<p>All needed php files in application/controllers, models and views</br>
-JS and CSS in public/css and js</p>
+<p>All needed php files in application/controllers, models and views.</br>
+JS and CSS in public/css and js.</p>
+SQL files in 'db' directory (premier.sql or premier_new.sql).
 
 
 
