@@ -1,0 +1,82 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+body,html {
+    font-family: 'Montserrat',Helvetica, Arial, sans-serif;
+    padding-top: 20px;
+    background-color: #eee;
+}
+hr{
+    border: 1px solid darkred;
+}
+
+/*  -----------  form -------------- */
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+ {
+    margin-bottom: 10px;
+}
+
+.form-signin .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+}
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.logo-h1{
+    font-size: 3em;
+    color: darkred;
+}
+
+.img-user{
+    height:120px;
+    margin-bottom: 25px;
+    margin-top: 40px;
+}
+
+/* --------------modal---------------- */
+
+.modal-footer{
+    border-top:none;
+    margin-top: 0;
+}
+
+#modalForgot .modal-content{
+    background: #E9E9E9;
+    border-radius: 0;
+    box-shadow:  0 0 20px #222;
+    max-width: 500px;
+    margin:0 auto;
+}
+
+#modalForgot{
+    padding-top: 100px;
+}
+
+.feedback{
+    font-size: 1.2em;
+}
+.feedback2{
+    font-size: 1.6em;
+    padding-bottom: 0;
+}

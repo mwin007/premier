@@ -1,0 +1,51 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+html,body{
+    font-size: 1em;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    height: 100%;
+
+}
+h1,h2,h3,h4{
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+.list-inline>li{
+    font-size: 1.2em;
+    font-family: 'Montserrat',Helvetica, Arial, sans-serif;
+    font-weight: 600;
+}
+.list-inline>li>a{
+    text-decoration: none;
+    transition: 0.3s;
+    margin-right: 30px;
+}
+.list-inline>li>a:hover{
+    text-decoration: none;
+    color:#222;
+    transition: 0.3s;
+    border-bottom: 2px solid darkred;
+}
+
+.top-nav{
+    padding-top: 30px;
+}
+
+table.table-products>tbody>tr>th{
+    background: #dcdcdc;
+}
+
+/*   modal settings */
+
+.modal{
+    margin-top: -20px;
+}
+.modal-backdrop
+{
+    opacity:0 !important;
+}
+
+.modal-header,.modal-body{
+   cursor: move;
+}

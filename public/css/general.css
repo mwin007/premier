@@ -1,0 +1,89 @@
+/* ------ general settings css document ----- */
+
+.btn{
+    border:1px solid #222;
+}
+
+.btn-default{
+    background: #222;
+    color: #fff3e0;
+    transition: 0.3s;
+}
+.btn-default:hover{
+    background: #fff3e0;
+    color: #222;
+    transition: 0.3s;
+}
+
+.btn-danger{
+    background: #C9302C;
+    color: #fff3e0;
+    transition: 0.3s;
+}
+.btn-danger:hover{
+    background: #fff3e0;
+    color: #C9302C;
+    transition: 0.3s;
+}
+
+.btn-primary{
+    background: #286090;
+    color: #fff3e0;
+    transition: 0.3s;
+    border:1px solid #222;
+}
+
+.btn-primary:hover{
+    background: #fff3e0;
+    color: #286090;
+    transition: 0.3s;
+}
+
+a,a:link{
+    color:#1919D1;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover,a:active{
+    color:#8080E6;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.error{
+    color:#fff;
+    background: darkred;
+}
+
+.success{
+    color:#fff;
+    background: darkgreen;
+}
+
+.message{
+    font-size: 1.1em;
+    opacity: 0.7;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.message2{
+    font-size: 1.5em;
+    opacity: 0.8;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+}
+
+hr{
+    border: 1px solid darkred;
+}
+
+.popover-content {
+    color:red;
+    font-size:1.4em;
+    font-weight: 600;
+}
