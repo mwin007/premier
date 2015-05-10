@@ -16,11 +16,12 @@ JS and CSS in public/css and js.</p>
 SQL files in 'db' directory (premier.sql or premier_new.sql).
 
 **If you need install the project on localhost:**
-+ rename directory of the project to 'premier'
-+ in .htaccess change RewriteBase // to RewriteBase /premier/
-+ in applications/config/development/config.php change $config['base_url'] = 'http://localhost/premier/' to different URL if it is necessary (for example http://localhost:81/premier/)
-+ install new database with the name 'premier' and import one of sql files in 'db' directory
++ Rename directory of the project to 'premier'
++ In .htaccess change RewriteBase // to RewriteBase /premier/
++ In applications/config/development/config.php change $config['base_url'] = 'http://localhost/premier/' to different URL if it is necessary (for example http://localhost:81/premier/)
++ Install new database with the name 'premier' and import one of sql files in 'db' directory
   - if need, change connection settings in applications/config/development/database.php
++ If the path of the project is not 'C:\xampp\htdocs\premier', change the 63 row in index.php "case 'C:\xampp\htdocs\premier': "  on something else
 
 Thank you for reading
 
