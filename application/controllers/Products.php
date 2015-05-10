@@ -18,7 +18,7 @@ class Products extends MY_Controller
 
     public function index()
     {
-        //if user not autorized -> back to login page
+        //if user not authorized -> back to login page
         if(!$this->session->userdata('is_login')){
           redirect('login');
         }
