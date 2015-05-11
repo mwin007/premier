@@ -27,7 +27,7 @@
 <div class="container">
 
     <div class="row">
-        <h1 class="logo-h1 text-center">Products Management System</h1>
+        <h1 class="logo-h1 text-center">Product Management System</h1>
         <hr>
         <img class="img img-responsive img-user center-block" src="{$url}public/img/key.svg"
                            alt="logo"/>
