@@ -36,8 +36,6 @@ class Products extends MY_Controller
 
     public function add_product(){
 
-        $this->post = $this->input->post(null,true);
-
         $this->form_validation->set_rules('title', 'Title', 'trim|required|callback_check_title');
         $this->form_validation->set_rules('price', 'Price', 'trim|required|numeric|greater_than[0]');
         $this->form_validation->set_rules('qty', 'Quantity', 'trim|is_natural');
